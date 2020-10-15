@@ -5,7 +5,8 @@ public class Temperature
      */
     public double convertTemperature(double celsius)
     {
-        return 0.0;
+         double fahrenheit = 9.0/5 * celsius + 32;
+        return fahrenheit;
       
       
       x = y * 9/5 + 32;
